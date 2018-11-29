@@ -12,7 +12,7 @@ class Board extends Component {
   }
   renderSquare(i) {
       return(
-        <Square id={i + 1} key={i + 1} value={this.props.gameBoard[i]} />
+        <Square id={i + 1} key={i + 1} bomb={this.props.gameBoard[i].bomb} visibilityClass={this.props.gameBoard[i].visibilityClass} />
       )
   }
   startNewGame() {

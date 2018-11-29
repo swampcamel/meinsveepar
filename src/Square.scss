@@ -1,3 +1,15 @@
 .square {
   border: 1px red solid;
 }
+
+.square-type, .shown {
+  // tbd
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: inline;
+}
