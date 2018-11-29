@@ -1,0 +1,15 @@
+.blah {
+  display: grid;
+  grid-template-columns: 42px 42px 42px 42px 42px;
+  grid-template-rows: 42px 42px 42px 42px 42px;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
